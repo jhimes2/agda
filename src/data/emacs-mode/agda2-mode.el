@@ -1596,7 +1596,7 @@ ways."
           ("?"                 (progn
                                  (when (and (not stk) (is-proper "?" nil))
                                    (delete-char -1)
-                                   (insert "{!!}")
+                                   (insert "{! !}")
                                    (make (- (point) 4))))))))))
 
 (defun agda2-make-goal (p q n)
